@@ -43,3 +43,6 @@ out/
 *.iml
 out
 gen
+
+.properties
+.env
