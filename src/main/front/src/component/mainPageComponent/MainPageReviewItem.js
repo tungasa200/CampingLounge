@@ -1,6 +1,4 @@
-import { Link } from 'react-router-dom';
-
-function MainPageReviewItem(props) {
+function MainPageReviewItem(props){
     const review = props.obj;
     const url = window.location.href + '/' + review.reviewId;
     const copyUrl = async (e) => {
@@ -27,8 +25,6 @@ function MainPageReviewItem(props) {
                     )}
                 </div>
                 <div className="txt-area">
-                    <h3 className="fs_xlg mb_xsm tc-w">{review.reviewTitle}</h3>
-                    <p className="fs_lg tc-w">📍 {review.campName}</p>
                 </div>
             </Link>
         </div>
